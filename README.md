@@ -1,8 +1,5 @@
-# Arquitectura de Software
+## Patrones de diseño
 
-En este proyecto aprenderemos sobre las aquitecturas de software y sobre las estrucutras y patrones que los conectan.
+Es la solución a un problema de diseño, el cual debe haber comprobado su efectividad resolviendo problemas similares en el pasado, también tiene que ser reutilizable, por lo que se deben poder usar para resolver problemas parecidos en contextos diferentes.
 
-Para cada tema se tendrá en cuenta una rama específica donde se documentará, definirá y ejemplificará cada uno.
-
-
-
+**¿Qué es un patrón?**: Básicamente es la solución a un problema.
