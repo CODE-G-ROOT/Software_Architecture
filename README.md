@@ -72,7 +72,7 @@ Para ello tendremos en cuenta 11 actividades que relizan todos los arquitectos.
  Para convertirte en un arquitecto de sorftware  tendremos en cuenta 3 aspectos importantes:
 
 **Conociento**: Según **Mark Richards** el conocimiento se divide en 3 partes las cuales se representan en el siguiente gráfico:
-![image-20231010091618594](/home/spukM01-003/.config/Typora/typora-user-images/image-20231010091618594.png)
+![image-20231010091618594](./Assets/Screenshot%20from%202023-10-10%2009-16-12.png)
 
 Como desarrollador es importante tener esa profundidad técnica (ampliar la punta de la piramide); si te desemeñas en algo, debes de tener un gran conocimiento en ello. 
 
