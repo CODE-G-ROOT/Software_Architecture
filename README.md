@@ -17,3 +17,13 @@ Según el libro *PATTERN-ORIENTED SOFTWARE ARCHITECTURE* los patrones se dividen
 
 Un patrón de diseño es el que describe una estrucutra recurrente para comunicar componentes (clases) , que resuelve un problema general de diseño en un contexto particular.
 
+
+
+#### Diferencias con un patrón de arquitectura y un idioma
+
+- Son patrones a mediana escala
+- Son de más alto nivel que los idiomas
+- Son independientes del lenguaje de programación
+- No afectan la estructura general del software
+- Sí pueden influir en el módulo o un subsistema
+
