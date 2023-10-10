@@ -65,3 +65,46 @@ Para ello tendremos en cuenta 11 actividades que relizan todos los arquitectos.
 **10. Mentoría:** Un arquitecto no solo es el encargado de la estructura del software si no que es el guía, lider y mentor, teniendo la capacidad de transmitir su conocimiento a los demás mienbros del equipo; este se preocupa por el conocimiento de los miembros de su equipo para que mejoren sus capacidades de diseño con el tiempo, dado que el diseño es un ejercisio colaborativo.
 
 **11. Un arquitecto de software desarrolla:** El arquitecto se involucra de alguna forma en el desarrollo del codigo, de alguna forma en la que sea efectivo. Esto para que se exista un seguimiento del rumbo del software y entender las consecuencias de lo que se esté construyendo.
+
+
+## Introducción a la arquitectura de software
+
+ Para convertirte en un arquitecto de sorftware  tendremos en cuenta 3 aspectos importantes:
+
+**Conociento**: Según **Mark Richards** el conocimiento se divide en 3 partes las cuales se representan en el siguiente gráfico:
+![image-20231010091618594](/home/spukM01-003/.config/Typora/typora-user-images/image-20231010091618594.png)
+
+Como desarrollador es importante tener esa profundidad técnica (ampliar la punta de la piramide); si te desemeñas en algo, debes de tener un gran conocimiento en ello. 
+
+Como arquitecto la situación es un poco distinta; para el arquitecto lo que más importa es la amplitud, ya no interesa tanto ser un experto en una sola herramienta, si no que conocer de muchas herramientas, abarcando así la capa de lo que sabes que no sabes.
+
+Puntualmente se debe de conocer multiples plataformas, teconologías, ambientes y lenguajes, saliendote así de tu forma de confort probando algo distinto.
+
+1. **Ampliar tu conocimiento**, conocer mulltiples plataformas, tecnológias ambientes y lenguajes
+2. **Conocer los atributos de calidad**, también conocidos como requerimientos no funcionales o caracteríasticas de arquitectura, esto incluye lo siguiente:
+   1. Agilidad
+   2. Confiabilidad
+   3. Desplegabilidad
+   4. Disponibilidad
+   5. Escalabilidad 
+   6. Facilidad de desarrolo
+   7. Interoperabilidad
+   8. Mantenibilidad
+   9. Modificabilidad
+   10. Portabilidad 
+   11. Rendimiento
+   12. Seguridad
+   13. Testeabilidad
+   14. Usabilidad
+3. **Patrones de arquitectura y de Diseño** 
+4. **Inregración y entrega continua**
+5. **Experiencia como desarrollador** (idealmente fullstack)
+6. **Habilidades Blandas, Soft skills, people skills**
+   1. Liderazgo
+   2. Comunicación
+   3. Negociación
+   4. Trabajo en equipo
+   5. Pragmatismo
+   6. Capacidad de abstracción
+
+
