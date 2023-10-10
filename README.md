@@ -1,8 +1,5 @@
 # Arquitectura de Software
 
-En este proyecto aprenderemos sobre las aquitecturas de software y sobre las estrucutras y patrones que los conectan.
+Es el diseño de más alto nivel de la estructura de un sistema, el cual consiste en un conjunto de patrones y abstracciones que proporcionan un marco claro para la implementación de un sistema.
 
-Para cada tema se tendrá en cuenta una rama específica donde se documentará, definirá y ejemplificará cada uno.
-
-
-
+La arquitectura de software se refiere al diseño de alto nivel de un sistema de software. Es la representación abstracta y estructurada de cómo diferentes componentes de un software interactúan entre sí y cómo se organizan para lograr los objetivos del sistema. La arquitectura de software establece las bases y las directrices para la construcción del software, y es esencial para garantizar que el software sea eficiente, escalable, mantenible y cumpla con los requisitos funcionales y no funcionales.
