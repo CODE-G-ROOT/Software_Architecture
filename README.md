@@ -2,10 +2,10 @@
 
 La arquitectura de software se refiere al diseño de alto nivel de un sistema de software. Es la representación abstracta y estructurada de cómo diferentes componentes de un software interactúan entre sí y cómo se organizan para lograr los objetivos del sistema. La arquitectura de software establece las bases y las directrices para la construcción del software, y es esencial para garantizar que el software sea eficiente, escalable, mantenible y cumpla con los requisitos funcionales y no funcionales.
 
-> Es el diseño de más alto nivel de la estructura de un sistema, el cual consiste en un conjunto de patrones y abstracciones que proporcionan un marco claro para la implementación de un sistema.
+> La arquitectura de software es el diseño de más alto nivel de la estructura de un sistema, que consiste en un conjunto de patrones y abstracciones que proporcionan un marco claro para la implementación del sistema.
 
 
-### Aspectos clave de la arquitectura de software:
+## Aspectos clave de la arquitectura de software:
 
 **1. Componentes:** Define los módulos o componentes principales del sistema y cómo se relacionan entre sí. Estos componentes pueden ser módulos de software, servicios, subsistemas, bases de datos, etc.
 
@@ -25,10 +25,6 @@ La arquitectura de software se refiere al diseño de alto nivel de un sistema de
 
 La arquitectura de software puede representarse a través de diversos modelos y diagramas, como diagramas de flujo, diagramas de componentes, diagramas de despliegue, entre otros. El proceso de diseño de la arquitectura de software suele ser una etapa crucial en el desarrollo de proyectos de software, ya que sienta las bases para la implementación y el desarrollo subsiguiente. Una buena arquitectura de software contribuye a la eficiencia del desarrollo, la calidad del producto y la capacidad de mantener y evolucionar el software con el tiempo.
 
->  Básicamente, la arquitectura de software es un conjunto de estructuras:
-
-
-
 **Estructura:** Cómo organizar las partes del sistema y cómo conectarlas; en esto aplican los patrones de arquitectura como eventos, capas, microservicios; te van a decir qué componentes necesitas y cómo se van a conectar entre ellos.
 
 - **Razonar:** Facilita la idea de dialogar sobre el futuro del software a un alto nivel que facilita la comunicación entre ellos.
@@ -39,10 +35,11 @@ La arquitectura de software puede representarse a través de diversos modelos y 
 
   "*La arquitectura es acerca de las cosas importantes, no importa qué sean esas cosas".*  ~*Raf Johnson*
 
+> Básicamente, la arquitectura de software es un conjunto de estructuras que determina cómo organizar las partes del sistema y cómo conectarlas; en esto aplican los patrones de arquitectura como eventos, capas, microservicios; te van a decir qué componentes necesitas y cómo se van a conectar entre ellos. Ayuda a facilitar la comunicación y razonar sobre el futuro del software a un alto nivel que facilita la toma de decisiones y el diseño de la aplicación, además de definir atributos de calidad esenciales.
 
 
 
-### ¿Qué hace un arquitecto de software?
+## ¿Qué hace un arquitecto de software?
 
 Para ello tendremos en cuenta 11 actividades que relizan todos los arquitectos.
 
@@ -68,12 +65,13 @@ Para ello tendremos en cuenta 11 actividades que relizan todos los arquitectos.
 
 **11. Un arquitecto de software desarrolla:** El arquitecto se involucra de alguna forma en el desarrollo del codigo, de alguna forma en la que sea efectivo. Esto para que se exista un seguimiento del rumbo del software y entender las consecuencias de lo que se esté construyendo.
 
+# Introducción a la arquitectura de software
 
-## Introducción a la arquitectura de software
+---
 
  Para convertirte en un arquitecto de sorftware  tendremos en cuenta 3 aspectos importantes:
 
-**Conociento**: Según **Mark Richards** el conocimiento se divide en 3 partes las cuales se representan en el siguiente gráfico:
+**Conocimiento:** Según Mark Richards, el conocimiento se divide en tres partes representadas en la siguiente pirámide:
 ![image-20231010091618594](./Assets/piramide_del_conocimiento.png)
 
 Como desarrollador es importante tener esa profundidad técnica (ampliar la punta de la piramide); si te desemeñas en algo, debes de tener un gran conocimiento en ello. 
@@ -142,39 +140,24 @@ Puntualmente se debe de conocer multiples plataformas, teconologías, ambientes 
    | Pragmatismo              | Enfoque filosófico que prioriza la utilidad y la eficacia práctica en la toma de decisiones y la búsqueda de la verdad, en lugar de abstracciones teóricas. |
    | Capacidad de abstracción | Habilidad para simplificar información, identificar patrones y conceptos generales a partir de detalles y datos específicos. Facilita la comprensión y el pensamiento conceptual. |
 
-
 <br>
 
-## Habilidades blandas (Soft Skills)
+# Habilidades blandas (Soft Skills)
+
+---
 
 Dado que el arquitecto es el líder de todo un equipo, su capacidad de comunicación debe ser superior para el entendimiento de todos en la entidad, comprender, adaptarse y liderar es fundamental para poder resolver los conflictos que se presenten en su trayectoria como líder.
 
-> Estas son algunas de las habilidades más importantes que debes tener como arquitecto de software.
+- **Liderazgo**: Capacidad para guiar, motivar y dirigir un grupo o equipo hacia metas y objetivos comunes.
+- **Comunicación**: Habilidad para transmitir ideas, pensamientos y mensajes de manera efectiva y comprensible.
+- **Negociación**: Habilidad para llegar a acuerdos mutuamente beneficiosos al tratar con conflictos, intereses opuestos o diferencias de opinión.
+- **Trabajo en equipo:** Capacidad para colaborar y coordinar esfuerzos con otros para lograr metas comunes.
+- **Pragmatismo**: Enfoque filosófico que prioriza la utilidad y la eficacia práctica en la toma de decisiones y la búsqueda de la verdad.
+- **Capacidad de abstracción:** Habilidad para simplificar información, identificar patrones y conceptos generales a partir de detalles y datos específicos.
 
-1. **Capacidad de negociación:** El arquitecto siempre ha de estar en un punto medio entre el manejo del negocio, los desarrolladores, los usuarios, etc. Además, siempre se ha de estar buscando llegar a un acuerdo con distintas partes, ya sea implementar una arquitectura que tome un poco de tiempo planear, la implementación de un atributo de calidad muy importante que para el usuario no lo es; en este caso, el arquitecto ha de intentar convencer. En otros casos, ocurrirá que se tendrá que adquirir deuda técnica para sacar adelante algo que sea más importante, por ende, se tendrá que razonar con el cliente dada la entrega.
+# Atributos de Calidad
 
-2. **Amabilidad:** Ser alguien del que se habla bien cuando no está ahí.
-
-   - Capacidad de poder tener buenas relaciones.
-   - Conservar esas relaciones por encima de imponerse sobre una idea.
-   - Ser una persona que no guarda rencores.
-
-   > En general, una persona a la que las personas estiman.
-
-3. **Liderazgo:** Capacidad de liderar, orientarlo al logro, ser un guía y mentor.
-
-4. **Comunicación:** Dado que el arquitecto es el puente entre los desarrolladores y el mundo, es fundamental que esa persona tenga muy buenas habilidades comunicativas.
-
-5. **Pragmatismo:** Capacidad de tomar decisiones que técnicamente no son las que quisieras, pero que vayan a favor del objetivo y la comodidad de tus desarrolladores.
-
-6. **Visión:** Capacidad de ver el panorama completo, observar cómo está conectado el sistema y cómo influye en el negocio y en el mundo que lo rodea.
-
-   > Tener una visión a 10.000 pies de altura.
-
-7. **Innovación:** Capacidad de estar aprendiendo constantemente y aplicar lo aprendido sobre su arquitectura, realizando así que esta se mantenga relevante.
-
-
-## Atributos de Calidad
+---
 
 Característica o propiedad que describe cómo un sistema o software se comporta en términos de su desempeño, eficacia y capacidad para satisfacer las necesidades del usuario y las expectativas. Estos atributos son esenciales para evaluar la calidad y el rendimiento de un sistema o aplicación.
 
@@ -182,15 +165,13 @@ También denominado ***Característica de arquitectura***, es una propiedad medi
 
 Pero...
 
-### ¿Cómo medimos un atributo de calidad?
+## ¿Cómo medimos un atributo de calidad?
 
 Bueno, el escenario de un atributo de calidad se divide en tres partes.
 
-**Fuente:** Encargada de generar un estímulo para el artefacto. Esta fuente puede ser un usuario, un tipo de hardware, etc.
-
-**Artefacto:** Puede ser el código fuente, base de datos, etc. Este artefacto estará corriendo en cierto ambiente.
-
-**Respuesta:** Es la reacción del sistema ante el estímulo de la fuente sobre el artefacto. Dependiendo de la respuesta, podemos medir varias cosas como: ¿Qué porcentaje del sistema sigue estando disponible después del estímulo?, ¿Qué tan rápido fuimos capaces de procesar una transacción?, entre otros.
+1. **Fuente:** La fuente es la entidad que genera un estímulo que afecta al sistema. Puede ser un usuario, otro sistema, un dispositivo, etc.
+2. **Artefacto:** El artefacto se refiere a la parte del sistema que está siendo evaluada en relación con el atributo de calidad. Puede ser el código fuente, una base de datos, un componente específico, etc.
+3. **Respuesta:** La respuesta es la reacción del sistema ante el estímulo de la fuente. La medida de la respuesta permite evaluar el atributo de calidad en cuestión.
 
 ![Image](./Assets/atributos_De_calidad_medicion.png)
 
@@ -208,125 +189,66 @@ Los siguientes son los atributos más conocidos y más importantes:
 | **Testeabilidad**     | Qué tan fácil es hacer la prueba de un sistema.              |
 | **Usabilidad**        | Qué tan fácil un usuario puede realizar las tareas en un sistema. |
 
+# 10 Tipos de Arquitectos de Software
 
-## 
+<hr>
 
+:warning: **<i>Nota Importante</i>:** En distintas empresas, los roles y las responsabilidades de los arquitectos de software pueden variar. Las siguientes descripciones ofrecen una visión general de estos roles.*
 
-## 10 Tipos de arquitecto de software
+**1. Arquitecto Empresarial**
 
->  :warning: <span style="color: yellow">Waring</span>
->
-> En tu empresa podrían llamarse diferente
-> Algunos cargos sonarán muy parecidos
-> Estas no son definiciones exactas
+- **Enfoque**: Alinea el software con la estrategia empresarial y analiza cómo los usuarios utilizan el software en los procesos de negocio.
+- **Responsabilidades**: Define la comunicación con sistemas externos y analiza cómo los usuarios utilizan el software en los procesos de negocio.
 
-**Arquitecto empresarial** 
+**2. Arquitecto de Soluciones**
 
-- Encargado de alineamiento del software con los procesos y la estrategia de la empresa
+- **Enfoque**: Convierte requisitos en una arquitectura efectiva y colabora estrechamente con analistas de negocio y propietarios de productos.
+- **Responsabilidades**: Convierte los requisitos en una arquitectura efectiva, colabora con analistas de negocio y propietarios de productos, y diseña conexiones entre sistemas y facilita la comunicación entre equipos.
 
-- Podría haber arquitectura empresarial, sin sistemas de información
+**3. Arquitecto de Software por Dominio**
 
-- *Algunas actividades:*
+- **Enfoque**: Especializado en un área técnica particular y se centra en diseñar el sistema basado en requisitos específicos.
+- **Responsabilidades**: Selecciona tecnologías para la implementación de componentes y define estándares.
 
-  > - Especificar comunicación con sistemas externos
-  > - Analizar como las personas usan el software para los procesos de negocio
+**4. Arquitecto de Aplicación**
 
-**Arquitecto de soluciones**
+- **Enfoque**: Se enfoca en aplicaciones específicas o conjuntos de aplicaciones, como un arquitecto del sistema contable.
+- **Ejemplos**: Arquitecto del sistema contable, Arquitecto de la aplicación XYZ.
 
-- Convierte requerimientos en una arquitectura que los resuelve
+**5. Arquitecto por Lenguaje**
 
-- *Algunas actividades:*
+- **Enfoque**: Se especializa en un lenguaje de programación específico, como un arquitecto .NET o un arquitecto Java.
+- Común en empresas de desarrollo a medida.
+- **Ejemplos**: Arquitecto .NET, Arquitecto JAVA.
 
-  > - Trabajan con analistas de negocio y product owners
-  >
-  > - Diseñan conexiones entre sistemas
-  >
-  > - Facilitan la comunicación entre varios equipos
+**6. Arquitecto por Capa**
 
-**Arquitectos de software por dominio**
+- **Enfoque**: Se especializa en una capa específica del sistema, como un arquitecto Front-end o un arquitecto Móvil.
+- **Ejemplos**: Arquitecto Front-end, Arquitecto Móvil, Arquitecto iOS, Arquitecto Android.
 
-- Son arquitectos especializados en un área técnica particular
-- Diseñar el sistema basado en los requerimientos
-- Seleccionar las tecnologías para la implementación de cada componente
-- Definen buenas prácticas y estándares
+**7. Arquitecto Cloud**
 
-**Arquitecto de aplicación**
+- **Enfoque**: Se especializa en soluciones basadas en la nube y puede ser un arquitecto AWS o un arquitecto Azure.
+- **Ejemplos**: Arquitecto AWS, Arquitecto Azure.
 
-- Se enfoca en una o más aplicaciónes específicas
+**8. Arquitecto de Infraestructura**
 
-- *Ejemplos*:
+- **Enfoque**: Asegura que el software sea compatible con la infraestructura y trabaja con servidores, dispositivos de red y sistemas de almacenamiento.
 
-  > - Arquitecto del sistema contable 
-  > - Arquitecto de aplicación XYZ
+**9. Arquitecto de Seguridad**
 
-**Arquitecto por lenguaje**
+- **Enfoque**: Se enfoca en la seguridad del sistema y realiza pruebas de vulnerabilidad e implementa estándares de seguridad.
 
-- Muy común en empresas de desarrollo a la medida
+**10. Arquitecto de Datos**
 
-- *Ejemplos*:
+- **Enfoque**: Diseña, despliega y administra los datos de una empresa, incluida la estructura y el rendimiento de las bases de datos.
+- Este formato hace que la información sea más clara y fácil de asimilar. ¿Necesitas alguna otra mejora en el formato o contenido adicional?
 
-  > - Arquitecto .NET
-  >
-  > - Arquitecto JAVA
+**11. Arquitecto de Información**
 
-**Arquitecto por capa**
+- **Enfoque en Usuarios:** Se centra en comprender a los usuarios y cómo los datos afectan su experiencia con el sistema.
+- **Pruebas de Usabilidad:** Realiza pruebas de usabilidad para evaluar la facilidad de uso y la satisfacción del usuario.
+- **Colaboración con Diseñadores:** Trabaja en estrecha colaboración con diseñadores para mejorar la experiencia del usuario (UX).
 
-- Se especializan en una capa o parte del sistema
-
-- *Ejemplos:*
-
-  > - Arquitecto Front-end
-  >
-  > - Arquitecto móvil
-  >
-  > - Arquitecto iOS
-  > - Arquitecto Android
-
-**Arquitecto Cloud**
-
-- Se especializa en computación en la nube
-
-- *Ejemplos:*  
-
-  > - Arquitecto AWS
-  >
-  > - Arquitecto Azure
-
-**Arquitecto de infraestructura**
-
-- Se encarga de que el software soporte las necesidades del negocio y el software
-- *Se relaciona con componentes como:*
-  - Servidores
-  - Dispositivos de red (enrutadores, firewalls, balanceadores de carga,...)
-  - Sistemas de almacenamiento (SAN)
-
-**Arquitecto de Seguridad**
-
-- Encargado de la seguridad de la red, datos y dispositivos
-
-- *Algunas actividades:*
-
-  >- Realizar pruebas de vulnerabilidad
-  >- Implementar estándares de seguridad
-  >- Encontrar huevos de seguridad en arquitecturas
-
-**Arquitecto de Datos**
-
-- Diseña, despliega y administra os datos de una empresa
-
-- *Algunas actividades:*
-
-  > - Diseñar como los datos serán guardados, utilizados e integrados.
-  > - Definir procesos para hacer backups. recuperar y archivar datos
-  > - Monitorear rendimiento de bases de datos
-
-**Arquitecto de Información**
-
-- Se enfoca en los usuarios, y como los datos afectan su experiencia.
-
-- *Algunas actividades*
-
-  > - Realizar pruebas de usabilidad
-  > - Trabajan con diseñadores para mejorar la experiencia UX
-
+Estos son algunos de los tipos de arquitectos de software que existen en la industria, y cada uno tiene sus propias responsabilidades y áreas de especialización.
 
