@@ -208,3 +208,125 @@ Los siguientes son los atributos más conocidos y más importantes:
 | **Testeabilidad**     | Qué tan fácil es hacer la prueba de un sistema.              |
 | **Usabilidad**        | Qué tan fácil un usuario puede realizar las tareas en un sistema. |
 
+
+## 
+
+
+## 10 Tipos de arquitecto de software
+
+>  :warning: <span style="color: yellow">Waring</span>
+>
+> En tu empresa podrían llamarse diferente
+> Algunos cargos sonarán muy parecidos
+> Estas no son definiciones exactas
+
+**Arquitecto empresarial** 
+
+- Encargado de alineamiento del software con los procesos y la estrategia de la empresa
+
+- Podría haber arquitectura empresarial, sin sistemas de información
+
+- *Algunas actividades:*
+
+  > - Especificar comunicación con sistemas externos
+  > - Analizar como las personas usan el software para los procesos de negocio
+
+**Arquitecto de soluciones**
+
+- Convierte requerimientos en una arquitectura que los resuelve
+
+- *Algunas actividades:*
+
+  > - Trabajan con analistas de negocio y product owners
+  >
+  > - Diseñan conexiones entre sistemas
+  >
+  > - Facilitan la comunicación entre varios equipos
+
+**Arquitectos de software por dominio**
+
+- Son arquitectos especializados en un área técnica particular
+- Diseñar el sistema basado en los requerimientos
+- Seleccionar las tecnologías para la implementación de cada componente
+- Definen buenas prácticas y estándares
+
+**Arquitecto de aplicación**
+
+- Se enfoca en una o más aplicaciónes específicas
+
+- *Ejemplos*:
+
+  > - Arquitecto del sistema contable 
+  > - Arquitecto de aplicación XYZ
+
+**Arquitecto por lenguaje**
+
+- Muy común en empresas de desarrollo a la medida
+
+- *Ejemplos*:
+
+  > - Arquitecto .NET
+  >
+  > - Arquitecto JAVA
+
+**Arquitecto por capa**
+
+- Se especializan en una capa o parte del sistema
+
+- *Ejemplos:*
+
+  > - Arquitecto Front-end
+  >
+  > - Arquitecto móvil
+  >
+  > - Arquitecto iOS
+  > - Arquitecto Android
+
+**Arquitecto Cloud**
+
+- Se especializa en computación en la nube
+
+- *Ejemplos:*  
+
+  > - Arquitecto AWS
+  >
+  > - Arquitecto Azure
+
+**Arquitecto de infraestructura**
+
+- Se encarga de que el software soporte las necesidades del negocio y el software
+- *Se relaciona con componentes como:*
+  - Servidores
+  - Dispositivos de red (enrutadores, firewalls, balanceadores de carga,...)
+  - Sistemas de almacenamiento (SAN)
+
+**Arquitecto de Seguridad**
+
+- Encargado de la seguridad de la red, datos y dispositivos
+
+- *Algunas actividades:*
+
+  >- Realizar pruebas de vulnerabilidad
+  >- Implementar estándares de seguridad
+  >- Encontrar huevos de seguridad en arquitecturas
+
+**Arquitecto de Datos**
+
+- Diseña, despliega y administra os datos de una empresa
+
+- *Algunas actividades:*
+
+  > - Diseñar como los datos serán guardados, utilizados e integrados.
+  > - Definir procesos para hacer backups. recuperar y archivar datos
+  > - Monitorear rendimiento de bases de datos
+
+**Arquitecto de Información**
+
+- Se enfoca en los usuarios, y como los datos afectan su experiencia.
+
+- *Algunas actividades*
+
+  > - Realizar pruebas de usabilidad
+  > - Trabajan con diseñadores para mejorar la experiencia UX
+
+
