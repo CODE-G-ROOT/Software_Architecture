@@ -74,7 +74,7 @@ Para ello tendremos en cuenta 11 actividades que relizan todos los arquitectos.
  Para convertirte en un arquitecto de sorftware  tendremos en cuenta 3 aspectos importantes:
 
 **Conociento**: Según **Mark Richards** el conocimiento se divide en 3 partes las cuales se representan en el siguiente gráfico:
-![image-20231010091618594](./Assets/Screenshot%20from%202023-10-10%2009-16-12.png)
+![image-20231010091618594](./Assets/piramide_del_conocimiento.png)
 
 Como desarrollador es importante tener esa profundidad técnica (ampliar la punta de la piramide); si te desemeñas en algo, debes de tener un gran conocimiento en ello. 
 
@@ -172,4 +172,39 @@ Dado que el arquitecto es el líder de todo un equipo, su capacidad de comunicac
    > Tener una visión a 10.000 pies de altura.
 
 7. **Innovación:** Capacidad de estar aprendiendo constantemente y aplicar lo aprendido sobre su arquitectura, realizando así que esta se mantenga relevante.
+
+
+## Atributos de Calidad
+
+Característica o propiedad que describe cómo un sistema o software se comporta en términos de su desempeño, eficacia y capacidad para satisfacer las necesidades del usuario y las expectativas. Estos atributos son esenciales para evaluar la calidad y el rendimiento de un sistema o aplicación.
+
+También denominado ***Característica de arquitectura***, es una propiedad medible del sistema que indica cuán bien satisface a cada una de las partes interesadas.
+
+Pero...
+
+### ¿Cómo medimos un atributo de calidad?
+
+Bueno, el escenario de un atributo de calidad se divide en tres partes.
+
+**Fuente:** Encargada de generar un estímulo para el artefacto. Esta fuente puede ser un usuario, un tipo de hardware, etc.
+
+**Artefacto:** Puede ser el código fuente, base de datos, etc. Este artefacto estará corriendo en cierto ambiente.
+
+**Respuesta:** Es la reacción del sistema ante el estímulo de la fuente sobre el artefacto. Dependiendo de la respuesta, podemos medir varias cosas como: ¿Qué porcentaje del sistema sigue estando disponible después del estímulo?, ¿Qué tan rápido fuimos capaces de procesar una transacción?, entre otros.
+
+![Image](./Assets/atributos_De_calidad_medicion.png)
+
+Los siguientes son los atributos más conocidos y más importantes:
+
+| Atributo              | Descripción                                                  |
+| --------------------- | ------------------------------------------------------------ |
+| **Desplegabilidad**   | Ayuda a definir qué tan fácil es desplegar una nueva versión de la aplicación en producción. |
+| **Disponibilidad**    | Habla acerca de si el sistema está listo o no para atender una solicitud en el momento en que uno lo espera. |
+| **Escalabilidad**     | Trata de que con el tiempo el sistema sea capaz de soportar cada vez mayores cargas. |
+| **Interoperabilidad** | Qué tan bien el sistema puede intercambiar datos con otros sistemas. |
+| **Modificabilidad**   | Cuál es el costo de hacer un cambio en el sistema; qué tan rápido lo puedo hacer y qué tantos recursos necesito. |
+| **Rendimiento**       | Es si el sistema hace lo que se espera que haga en un tiempo esperado para nuestros usuarios. |
+| **Seguridad**         | Es la capacidad de un sistema para proteger los datos de accesos no autorizados y permitir el acceso a partes autorizadas. |
+| **Testeabilidad**     | Qué tan fácil es hacer la prueba de un sistema.              |
+| **Usabilidad**        | Qué tan fácil un usuario puede realizar las tareas en un sistema. |
 
