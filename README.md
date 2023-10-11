@@ -252,3 +252,53 @@ Los siguientes son los atributos más conocidos y más importantes:
 
 Estos son algunos de los tipos de arquitectos de software que existen en la industria, y cada uno tiene sus propias responsabilidades y áreas de especialización.
 
+# Architectural Katas
+
+<hr>
+
+Es una actividad donde se asigna un ejercicio para el cual hay que definir la arquitectura y esto normalmente se realiza en grupos de 3 a 5 personas. 
+
+Es un espacio donde se practica de manera grupal o individual una serie de movimientos, siendo un pequeño espacio donde puedes perfeccionar tu arte, antes de enfrentar un desafío o un reto real.
+
+### <u>Reglas:</u>
+
+- **Moderador**: Persona que a veces tomará el rol de cliente, jefe, gerente de proyectos, etc. Es la persona que nos va a aclarar las inquietudes que no queden resueltas a partir de las reglas de una kata y a partir del ejercicio estemos trabjando. 
+
+- **Se trabajará en 4 Fases.** 
+
+  - **Fase de preparación:** Lo ideal de estos ejercicios es que trabajes con personas diferentes que piensen de forma diferente. Además que se evite el uso de computadores y se utilice más bien pliegos de papel, post-its, marcadores, etc. La idea es que sea un elemento donde nos sentemos a pensar en vez de buscar las soluciones predefinidas en internet.
+
+  - **Fase de discución:** Vamos a analizar los requerimientos de la kata y vamos a  trabajar en la arquitectura por el tiempo que esté definido según las reglas, entonces ahí podemos hacer preguntas al moderador y vamos a hacer supuestos sobre las tecnologias que vamos a utiilizar.
+
+  - **Fase de presentación:**  Cada grupo presententa cual fué la solución a la kata que estaba trabajando, por ejemplo se puede mostrar: la arquitectura, las tecnologías y en general cuál fué el proceso. 
+
+    >  :bulb:   <u>Recomendado</u>
+    >
+    > Utilizar el modelo C4 para realizar la presentación de la arquitectura el cual permite mostrar la arquitectura en varios niveles y mostrar las desiciones de diseño relevantes
+
+  - **Votación:** Todas las personas presentes en la votación votan con manita arriba si salió muy bien la kata, y si no cumplió con las espectativas. 
+
+    Luego de la votación, entra un feed back colectivo sobre lo que se realizó
+
+**<u>REFERENCIAS:</u>**
+
+En esta página se explica al detalle este pequeño juego:   [Katas](https://www.architecturalkatas.com/)
+
+<br>
+
+# Bibliografía:
+
+<hr>
+
+- [Introducción a la arquitectura de Software](https://www.youtube.com/watch?v=7ukajubprdE&list=PLFHx3afTdaY0hvX2NXRxMVM3j5sk-3aE3&index=2&ab_channel=ManuelZapata)
+- [11 Actividades que hace un arquitecto de software](https://www.youtube.com/watch?v=rWh7RtVJzhA&list=PLFHx3afTdaY0hvX2NXRxMVM3j5sk-3aE3&index=3&ab_channel=ManuelZapata)
+- [Cómo convertirte en un arquitecto de software](https://www.youtube.com/watch?v=oowwFLK_G4c&list=PLFHx3afTdaY0hvX2NXRxMVM3j5sk-3aE3&index=4&ab_channel=ManuelZapata)
+- [7 soft skill Cruciales de un arquitecto de software](https://www.youtube.com/watch?v=wXqIsl_XSOg&list=PLFHx3afTdaY0hvX2NXRxMVM3j5sk-3aE3&index=5&ab_channel=ManuelZapata)
+- [Atributos de calidad del software](https://www.youtube.com/watch?v=NmRuhzyKCWM&list=PLFHx3afTdaY0hvX2NXRxMVM3j5sk-3aE3&index=6&ab_channel=ManuelZapata)
+- [10 tipos de arquitectos de software](https://www.youtube.com/watch?v=FlMa5U2tRhE&list=PLFHx3afTdaY0hvX2NXRxMVM3j5sk-3aE3&index=7&ab_channel=ManuelZapata)
+- [Architectural Katas](https://www.youtube.com/watch?v=1UtuR0HpN7s&list=PLFHx3afTdaY0hvX2NXRxMVM3j5sk-3aE3&index=8&ab_channel=ManuelZapata)
+
+
+
+
+
