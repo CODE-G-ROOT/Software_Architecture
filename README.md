@@ -1,8 +1,8 @@
 # Arquitectura de Software
 
-Es el diseño de más alto nivel de la estructura de un sistema, el cual consiste en un conjunto de patrones y abstracciones que proporcionan un marco claro para la implementación de un sistema.
-
 La arquitectura de software se refiere al diseño de alto nivel de un sistema de software. Es la representación abstracta y estructurada de cómo diferentes componentes de un software interactúan entre sí y cómo se organizan para lograr los objetivos del sistema. La arquitectura de software establece las bases y las directrices para la construcción del software, y es esencial para garantizar que el software sea eficiente, escalable, mantenible y cumpla con los requisitos funcionales y no funcionales.
+
+> Es el diseño de más alto nivel de la estructura de un sistema, el cual consiste en un conjunto de patrones y abstracciones que proporcionan un marco claro para la implementación de un sistema.
 
 
 ### Aspectos clave de la arquitectura de software:
@@ -25,7 +25,9 @@ La arquitectura de software se refiere al diseño de alto nivel de un sistema de
 
 La arquitectura de software puede representarse a través de diversos modelos y diagramas, como diagramas de flujo, diagramas de componentes, diagramas de despliegue, entre otros. El proceso de diseño de la arquitectura de software suele ser una etapa crucial en el desarrollo de proyectos de software, ya que sienta las bases para la implementación y el desarrollo subsiguiente. Una buena arquitectura de software contribuye a la eficiencia del desarrollo, la calidad del producto y la capacidad de mantener y evolucionar el software con el tiempo.
 
-Básicamente, la arquitectura de software es un conjunto de estructuras:
+>  Básicamente, la arquitectura de software es un conjunto de estructuras:
+
+
 
 **Estructura:** Cómo organizar las partes del sistema y cómo conectarlas; en esto aplican los patrones de arquitectura como eventos, capas, microservicios; te van a decir qué componentes necesitas y cómo se van a conectar entre ellos.
 
@@ -81,30 +83,93 @@ Como arquitecto la situación es un poco distinta; para el arquitecto lo que má
 Puntualmente se debe de conocer multiples plataformas, teconologías, ambientes y lenguajes, saliendote así de tu forma de confort probando algo distinto.
 
 1. **Ampliar tu conocimiento**, conocer mulltiples plataformas, tecnológias ambientes y lenguajes
-2. **Conocer los atributos de calidad**, también conocidos como requerimientos no funcionales o caracteríasticas de arquitectura, esto incluye lo siguiente:
-   1. Agilidad
-   2. Confiabilidad
-   3. Desplegabilidad
-   4. Disponibilidad
-   5. Escalabilidad 
-   6. Facilidad de desarrolo
-   7. Interoperabilidad
-   8. Mantenibilidad
-   9. Modificabilidad
-   10. Portabilidad 
-   11. Rendimiento
-   12. Seguridad
-   13. Testeabilidad
-   14. Usabilidad
-3. **Patrones de arquitectura y de Diseño** 
-4. **Inregración y entrega continua**
-5. **Experiencia como desarrollador** (idealmente fullstack)
-6. **Habilidades Blandas, Soft skills, people skills**
-   1. Liderazgo
-   2. Comunicación
-   3. Negociación
-   4. Trabajo en equipo
-   5. Pragmatismo
-   6. Capacidad de abstracción
 
+2. **Conocer los atributos de calidad**, también conocidos como requerimientos no funcionales o caracteríasticas de arquitectura, esto incluye lo siguiente:
+
+   | Atributo de Calidad     | Descripción                                                  |
+   | ----------------------- | ------------------------------------------------------------ |
+   | Agilidad                | Adaptación rápida a cambios y requerimientos.                |
+   | Confiabilidad           | Funcionamiento sin errores y protección de datos.            |
+   | Desplegabilidad         | Facilidad de implementación y actualización.                 |
+   | Disponibilidad          | Garantía de funcionamiento cuando se necesita.               |
+   | Escalabilidad           | Capacidad para crecer sin degradación del rendimiento.       |
+   | Facilidad de desarrollo | Simplificación del proceso de creación y mantenimiento.      |
+   | Interoperabilidad       | Capacidad para interactuar con otros sistemas.               |
+   | Mantenibilidad          | Facilita la modificación, reparación y mejora.               |
+   | Modificabilidad         | Facilidad para realizar cambios sin afectar el sistema.      |
+   | Portabilidad            | Ejecución en diferentes plataformas sin modificaciones.      |
+   | Rendimiento             | Ofrecer alta velocidad y eficiencia.                         |
+   | Seguridad               | Protección contra amenazas y seguridad de datos.             |
+   | Testeabilidad           | Facilita la realización de pruebas y detección de problemas. |
+   | Usabilidad              | Facilita la interacción efectiva y satisfactoria de los usuarios. |
+
+   <br>
+
+3. **Patrones de arquitectura y de Diseño** 
+
+   | Patrón de Diseño                   | Descripción                                                  |
+   | ---------------------------------- | ------------------------------------------------------------ |
+   | Patrón Singleton                   | Garantiza una única instancia de una clase.                  |
+   | Patrón Factory                     | Crea objetos sin especificar su clase concreta.              |
+   | Patrón Builder                     | Construye objetos complejos paso a paso.                     |
+   | Patrón Prototype                   | Clona objetos existentes para crear nuevos.                  |
+   | Patrón Adapter                     | Permite que interfaces incompatibles trabajen juntas.        |
+   | Patrón Decorator                   | Añade responsabilidades a objetos de forma dinámica.         |
+   | Patrón Observer                    | Define una dependencia uno a muchos entre objetos.           |
+   | Patrón Strategy                    | Permite seleccionar algoritmos en tiempo de ejecución.       |
+   | Patrón Command                     | Encapsula una solicitud como un objeto.                      |
+   | Patrón Template Method             | Define el esqueleto de un algoritmo, dejando algunos pasos a las subclases. |
+   | Patrón State                       | Permite que un objeto altere su comportamiento cuando su estado cambia. |
+   | Patrón Composite                   | Compone objetos en estructuras de árbol para representar jerarquías. |
+   | Patrón Proxy                       | Proporciona un sustituto o representante de otro objeto.     |
+   | Patrón Chain of Responsibility     | Encadena objetos para manejar una solicitud secuencialmente. |
+   | Patrón MVC (Model-View-Controller) | Divide una aplicación en tres componentes: Modelo, Vista y Controlador. |
+
+   <br>
+
+4. **Inregración y entrega continua**: Tiempos reservados de pequeñas entregas (modulos/sprints) para llevar un control del desarrollo del aplicativo.
+
+5. **Experiencia como desarrollador** (idealmente fullstack)
+
+6. **Habilidades Blandas, Soft skills, people skills**
+
+   | Tema                     | Descripción                                                  |
+   | ------------------------ | ------------------------------------------------------------ |
+   | Liderazgo                | Habilidad para guiar, motivar y dirigir un grupo o equipo hacia metas y objetivos comunes. Involucra la toma de decisiones y la gestión de personas. |
+   | Comunicación             | Capacidad para transmitir ideas, pensamientos y mensajes de manera efectiva y comprensible. Implica escuchar, expresarse y adaptarse al público. |
+   | Negociación              | Habilidad para llegar a acuerdos mutuamente beneficiosos al tratar con conflictos, intereses opuestos o diferencias de opinión. |
+   | Trabajo en equipo        | Capacidad para colaborar y coordinar esfuerzos con otros para lograr metas comunes. Involucra la comunicación, la empatía y la resolución de conflictos. |
+   | Pragmatismo              | Enfoque filosófico que prioriza la utilidad y la eficacia práctica en la toma de decisiones y la búsqueda de la verdad, en lugar de abstracciones teóricas. |
+   | Capacidad de abstracción | Habilidad para simplificar información, identificar patrones y conceptos generales a partir de detalles y datos específicos. Facilita la comprensión y el pensamiento conceptual. |
+
+
+<br>
+
+## Habilidades blandas (Soft Skills)
+
+Dado que el arquitecto es el líder de todo un equipo, su capacidad de comunicación debe ser superior para el entendimiento de todos en la entidad, comprender, adaptarse y liderar es fundamental para poder resolver los conflictos que se presenten en su trayectoria como líder.
+
+> Estas son algunas de las habilidades más importantes que debes tener como arquitecto de software.
+
+1. **Capacidad de negociación:** El arquitecto siempre ha de estar en un punto medio entre el manejo del negocio, los desarrolladores, los usuarios, etc. Además, siempre se ha de estar buscando llegar a un acuerdo con distintas partes, ya sea implementar una arquitectura que tome un poco de tiempo planear, la implementación de un atributo de calidad muy importante que para el usuario no lo es; en este caso, el arquitecto ha de intentar convencer. En otros casos, ocurrirá que se tendrá que adquirir deuda técnica para sacar adelante algo que sea más importante, por ende, se tendrá que razonar con el cliente dada la entrega.
+
+2. **Amabilidad:** Ser alguien del que se habla bien cuando no está ahí.
+
+   - Capacidad de poder tener buenas relaciones.
+   - Conservar esas relaciones por encima de imponerse sobre una idea.
+   - Ser una persona que no guarda rencores.
+
+   > En general, una persona a la que las personas estiman.
+
+3. **Liderazgo:** Capacidad de liderar, orientarlo al logro, ser un guía y mentor.
+
+4. **Comunicación:** Dado que el arquitecto es el puente entre los desarrolladores y el mundo, es fundamental que esa persona tenga muy buenas habilidades comunicativas.
+
+5. **Pragmatismo:** Capacidad de tomar decisiones que técnicamente no son las que quisieras, pero que vayan a favor del objetivo y la comodidad de tus desarrolladores.
+
+6. **Visión:** Capacidad de ver el panorama completo, observar cómo está conectado el sistema y cómo influye en el negocio y en el mundo que lo rodea.
+
+   > Tener una visión a 10.000 pies de altura.
+
+7. **Innovación:** Capacidad de estar aprendiendo constantemente y aplicar lo aprendido sobre su arquitectura, realizando así que esta se mantenga relevante.
 
