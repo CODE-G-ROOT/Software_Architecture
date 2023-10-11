@@ -4,8 +4,21 @@ La arquitectura de software se refiere al diseño de alto nivel de un sistema de
 
 > La arquitectura de software es el diseño de más alto nivel de la estructura de un sistema, que consiste en un conjunto de patrones y abstracciones que proporcionan un marco claro para la implementación del sistema.
 
+## Indice:
 
-## Aspectos clave de la arquitectura de software:
+- [Arquitectura de Software](#arquitectura-de-software)
+- [Aspectos clave de la arquitectura de software](#aspectos-clave-de-la-arquitectura-de-software)
+- [¿Qué hace un arquitecto de software?](#¿qué-hace-un-arquitecto-de-software?)
+- [Introducción a la arquitectura de software](#introducción-a-la-arquitectura-de-software)
+- [Habilidades blandas (Soft Skills)](#habilidades-blandas-(soft-skills))
+- [Atributos de Calidad](#atributos-de-calidad)
+- [¿Cómo medimos un atributo de calidad?](#¿cómo-medimos-un-atributo-de-calidad?)
+- [10 Tipos de Arquitectos de Software](#10-tipos-de-arquitectos-de-software)
+- [Architectural Katas](#architectural-katas)
+- [Bibliografía](#bibliografía:)
+
+
+## Aspectos clave de la arquitectura de software
 
 **1. Componentes:** Define los módulos o componentes principales del sistema y cómo se relacionan entre sí. Estos componentes pueden ser módulos de software, servicios, subsistemas, bases de datos, etc.
 
