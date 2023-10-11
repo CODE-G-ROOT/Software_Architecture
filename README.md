@@ -15,7 +15,7 @@ La arquitectura de software se refiere al diseño de alto nivel de un sistema de
 - [¿Cómo medimos un atributo de calidad?](#¿cómo-medimos-un-atributo-de-calidad?)
 - [10 Tipos de Arquitectos de Software](#10-tipos-de-arquitectos-de-software)
 - [Architectural Katas](#architectural-katas)
-- [Bibliografía](#bibliografía:)
+- [Bibliografía](#bibliografía)
 
 
 ## Aspectos clave de la arquitectura de software
@@ -299,7 +299,7 @@ En esta página se explica al detalle este pequeño juego:   [Katas](https://www
 
 <br>
 
-# Bibliografía:
+# Bibliografía
 
 <hr>
 
