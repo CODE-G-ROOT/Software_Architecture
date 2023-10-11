@@ -299,6 +299,53 @@ En esta página se explica al detalle este pequeño juego:   [Katas](https://www
 
 <br>
 
+# Patrones de arquitectura
+
+Son soluciones o estructuras que ayudan a definir la aplicación desde un nivel mayor.
+
+A diferencia de un patrón de diseño que soluciona un problema en particular.
+
+Estos patrones nos ayudan a definir el lineamiento para poder empezar a definir la aplicación
+
+
+
+### Diferencias entre Patrones de arquitectura y patrones de diseño
+
+Los patrones de arquitectura son los que nos ayudan a definir la estructura del sistema y ubicar donde van cada uno de los componentes y capas.
+
+Aquí tenemos algunos patrones de arquitectura:
+
+
+
+### Arquitectura por capas
+
+Es un enfoque de diseño de software que organiza una aplicación en múltiples capas o niveles lógicos, donde cada capa tiene una responsabilidad específica y se comunica con las capas adyacentes a través de interfaces definidas. Estas capas están diseñadas para ser independientes y modulares, lo que facilita la gestión, le mantenimiento y la escalabilidad del software.
+
+Las capas típicas de una arquitectura por capas son:
+
+- **Presentación**: Capa en cargada de la interfaz e interacción con el usuario. Aquí se encuentran elementos como la interfaz gráfica, la lógica de presentación y la captura de entrada del usuario.
+- **Lógica de negocio:** En esta capa se implementa la logica del negocio de la aplicación. Aquí se procesan los datos y se aplican las reglas de negocio. Esta capa es independiente de la interfaz de usuario.
+- **Acceso a datos**: Encargada de interactuar con las bases de datos o cualquier otro almacenamiento de datos. Realiza operaciones de lectura y escritura de datos.
+- **Infraestructura o servicios:** Se encuentran los servicios y componentes que son compartidos por todas las capas. como la gestión de sesiones, autenticación, seguridad y otros aspectos técnicos de la aplicación.
+
+
+
+### Otros ejemplos de patrones de arquitectura son
+
+- Orientada a eventos
+
+- Microservicios
+
+- Microkernel
+
+
+
+> :bulb: <u>En Resumen</u>
+>
+> Los patrones de diseño entran a solucionar problemas específicos dentro de los patrones de arquitectura.
+
+ 
+
 # Bibliografía
 
 <hr>
