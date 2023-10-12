@@ -4,6 +4,8 @@ La arquitectura de software se refiere al diseño de alto nivel de un sistema de
 
 > La arquitectura de software es el diseño de más alto nivel de la estructura de un sistema, que consiste en un conjunto de patrones y abstracciones que proporcionan un marco claro para la implementación del sistema.
 
+<br>
+
 ## Indice:
 
 - [Arquitectura de Software](#arquitectura-de-software)
@@ -12,10 +14,19 @@ La arquitectura de software se refiere al diseño de alto nivel de un sistema de
 - [Introducción a la arquitectura de software](#introducción-a-la-arquitectura-de-software)
 - [Habilidades blandas (Soft Skills)](#habilidades-blandas-(soft-skills))
 - [Atributos de Calidad](#atributos-de-calidad)
-- [¿Cómo medimos un atributo de calidad?](#¿cómo-medimos-un-atributo-de-calidad?)
+  - [¿Cómo medimos un atributo de calidad?](#¿cómo-medimos-un-atributo-de-calidad?)
+
 - [10 Tipos de Arquitectos de Software](#10-tipos-de-arquitectos-de-software)
+- [Patrones de arquitectura](#Patrones-de-arquitectura)
+  - [Diferencias entre un patrón de arquitectura y un patrón de arquitectura](#diferencias-entre-un-patrón-de-arquitectura-y-un-patrón-de-arquitectura)
+  - [Arquitectura por capas](#arquitectura-por-capas)
+- [Estilos de arquitectura de software](#estilos-de-arquitectura-de-software)
+  - [Comparativa entre un patrón de arquitectura y un estilo de arquitectura de software](#comparativa-entre-un-patrón-de-arquitectura-y-un-estilo-de-arquitectura-de-software)
+
 - [Architectural Katas](#architectural-katas)
 - [Bibliografía](#bibliografía)
+
+<br>
 
 
 ## Aspectos clave de la arquitectura de software
@@ -50,7 +61,7 @@ La arquitectura de software puede representarse a través de diversos modelos y 
 
 > Básicamente, la arquitectura de software es un conjunto de estructuras que determina cómo organizar las partes del sistema y cómo conectarlas; en esto aplican los patrones de arquitectura como eventos, capas, microservicios; te van a decir qué componentes necesitas y cómo se van a conectar entre ellos. Ayuda a facilitar la comunicación y razonar sobre el futuro del software a un alto nivel que facilita la toma de decisiones y el diseño de la aplicación, además de definir atributos de calidad esenciales.
 
-
+<br>
 
 ## ¿Qué hace un arquitecto de software?
 
@@ -78,9 +89,9 @@ Para ello tendremos en cuenta 11 actividades que relizan todos los arquitectos.
 
 **11. Un arquitecto de software desarrolla:** El arquitecto se involucra de alguna forma en el desarrollo del codigo, de alguna forma en la que sea efectivo. Esto para que se exista un seguimiento del rumbo del software y entender las consecuencias de lo que se esté construyendo.
 
-# Introducción a la arquitectura de software
+<br>
 
----
+# Introducción a la arquitectura de software
 
  Para convertirte en un arquitecto de sorftware  tendremos en cuenta 3 aspectos importantes:
 
@@ -157,20 +168,23 @@ Puntualmente se debe de conocer multiples plataformas, teconologías, ambientes 
 
 # Habilidades blandas (Soft Skills)
 
----
-
 Dado que el arquitecto es el líder de todo un equipo, su capacidad de comunicación debe ser superior para el entendimiento de todos en la entidad, comprender, adaptarse y liderar es fundamental para poder resolver los conflictos que se presenten en su trayectoria como líder.
 
 - **Liderazgo**: Capacidad para guiar, motivar y dirigir un grupo o equipo hacia metas y objetivos comunes.
+
 - **Comunicación**: Habilidad para transmitir ideas, pensamientos y mensajes de manera efectiva y comprensible.
+
 - **Negociación**: Habilidad para llegar a acuerdos mutuamente beneficiosos al tratar con conflictos, intereses opuestos o diferencias de opinión.
+
 - **Trabajo en equipo:** Capacidad para colaborar y coordinar esfuerzos con otros para lograr metas comunes.
+
 - **Pragmatismo**: Enfoque filosófico que prioriza la utilidad y la eficacia práctica en la toma de decisiones y la búsqueda de la verdad.
+
 - **Capacidad de abstracción:** Habilidad para simplificar información, identificar patrones y conceptos generales a partir de detalles y datos específicos.
 
-# Atributos de Calidad
+  <br>
 
----
+# Atributos de Calidad
 
 Característica o propiedad que describe cómo un sistema o software se comporta en términos de su desempeño, eficacia y capacidad para satisfacer las necesidades del usuario y las expectativas. Estos atributos son esenciales para evaluar la calidad y el rendimiento de un sistema o aplicación.
 
@@ -202,9 +216,10 @@ Los siguientes son los atributos más conocidos y más importantes:
 | **Testeabilidad**     | Qué tan fácil es hacer la prueba de un sistema.              |
 | **Usabilidad**        | Qué tan fácil un usuario puede realizar las tareas en un sistema. |
 
+<br>
+
 # 10 Tipos de Arquitectos de Software
 
-<hr>
 
 :warning: **<i>Nota Importante</i>:** En distintas empresas, los roles y las responsabilidades de los arquitectos de software pueden variar. Las siguientes descripciones ofrecen una visión general de estos roles.*
 
@@ -265,9 +280,102 @@ Los siguientes son los atributos más conocidos y más importantes:
 
 Estos son algunos de los tipos de arquitectos de software que existen en la industria, y cada uno tiene sus propias responsabilidades y áreas de especialización.
 
+<br>
+
+# Patrones de arquitectura
+
+Es la solución general y reutilizable para un conjunto común de problemas en el diseño y desarrollo de sistemas de software. Estos patrones proporcionan una estructura y una guía para resolver problemas específicos de arquitectura de software de manera eficiente y efectiva.
+
+> :bulb: **En conclusión**
+>
+> Son soluciones o estructuras que ayudan a definir la aplicación desde un nivel mayor.
+> A diferencia de un patrón de diseño que soluciona un problema en particular.
+> Estos patrones nos ayudan a definir el lineamiento para poder empezar a definir la aplicación
+
+### Diferencias entre un patrón de arquitectura y un patrón de arquitectura.
+
+Los patrones de arquitectura a diferencia de los patrones de diseño tienen un impacto global sobre la aplicación, mi entras que los patrones de diseño se enfocan en algo objetivo y concreto, los patrones de arquitectura se enfocan en un un objetivo de más alto nivel.
+
+Los patrones de arquitectura pueden regir la comunicación entre componentes, por ello cualquier cambio que se realice tendrá un impacto directo sobre el componente, en incluso podría afectas a otros componentes relacionados.
+
+> :bulb: **En resumen**
+>
+> Los patrones de arquitectura son los que nos ayudan a definir la estructura del sistema y ubicar donde van cada uno de los componentes y capas.
+
+<br>
+
+Como por ejemplo:
+
+### Arquitectura por capas
+
+Es un enfoque de diseño de software que organiza una aplicación en múltiples capas o niveles lógicos, donde cada capa tiene una responsabilidad específica y se comunica con las capas adyacentes a través de interfaces definidas. Estas capas están diseñadas para ser independientes y modulares, lo que facilita la gestión, le mantenimiento y la escalabilidad del software.
+
+Las capas típicas de una arquitectura por capas son:
+
+- **Presentación**: Capa en cargada de la interfaz e interacción con el usuario. Aquí se encuentran elementos como la interfaz gráfica, la lógica de presentación y la captura de entrada del usuario.
+- **Lógica de negocio:** En esta capa se implementa la logica del negocio de la aplicación. Aquí se procesan los datos y se aplican las reglas de negocio. Esta capa es independiente de la interfaz de usuario.
+- **Acceso a datos**: Encargada de interactuar con las bases de datos o cualquier otro almacenamiento de datos. Realiza operaciones de lectura y escritura de datos.
+- **Infraestructura o servicios:** Se encuentran los servicios y componentes que son compartidos por todas las capas. como la gestión de sesiones, autenticación, seguridad y otros aspectos técnicos de la aplicación.
+
+<br>
+
+### Otros ejemplos de patrones de arquitectura
+
+- **Modelo-Vista-Controlador (MVC)**: Divide una aplicación en tres componentes principales (modelo, vista y controlador) para separar la lógica de presentación y la lógica de negocio.
+- **Cliente-Servidor**: Divide un sistema en un servidor central que proporciona servicios y clientes que los utilizan para distribuir la carga y facilitar la escalabilidad.
+- **Arquitectura Orientada a Servicios (SOA)**: Organiza aplicaciones como servicios independientes que se comunican a través de interfaces estándar.
+- **Microservicios**: Divide una aplicación en componentes pequeños e independientes que pueden desplegarse y escalar de forma independiente.
+- **Arquitectura en Capas**: Divide una aplicación en capas lógicas, como la capa de presentación, la capa de lógica empresarial y la capa de acceso a datos.
+- **Arquitectura Hexagonal (Puertos y Adaptadores)**: Define un núcleo central que contiene la lógica de la aplicación, rodeado de adaptadores que interactúan con diferentes interfaces.
+
+> :bulb: **En Resumen**
+>
+> Los patrones de diseño entran a solucionar problemas específicos dentro de los patrones de arquitectura.
+
+<br>
+
+# Estilos de arquitectura de software
+
+Es una forma específica de diseñar la estructura y la organización de un sistema de software. A diferencia de un patrón de arquitectura que es una solución general y reutilizable para un conjunto de problemas, un estilo de arquitectura es una especificación más detallada que define cómo se deben organizar los componentes y cómo deben interactual dentro del sistema.
+
+Los estilos de arquitectura son útiles para abordar ciertos tipos de sistemas o aplicaciónes que tienen requisitos específicos y características particulares. 
+
+> :bulb: **En otras palabas**
+>
+> Es un método específico de construción, caracterizado por las características que lo hacen notable y se distingue por las características que hacen que un edificio u otra estructura sea notable o históriacemente identificable.
+>
+> Un estilo de arquitectura determina las características que debe tener un componente que utilice ese estilo, lo cual hace que sea fácilmente reconocible. De la misma forma que podemos determinar a qué periodo de la historia pertenece una construcción al observar sus características físicas, materiales u observar sus métodos de construcción, en el software podemos determinar qué estilo de arquitectura sigue un componente al observar sus características. 
+
+<br>
+
+## Comparativa entre un patrón de arquitectura y un estilo de arquitectura de software
+
+Tanto los patrones de arquitectura como los estilos de arquitectura son conceptos utilizados en el diseño y desarrollo de sistemas de software, y comparten similitudes en su enfoque, pero también tienen diferencias clave:
+
+| Aspecto             | Patrón de Arquitectura                                       | Estilo de Arquitectura                                       |
+| ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Tipo de Solución    | Solución específica para un problema particular.             | Enfoque general para la organización del sistema.            |
+| Nivel de Detalle    | Detallado y específico.                                      | Más alto nivel de abstracción.                               |
+| Aplicabilidad       | Limitado a situaciones específicas.                          | Puede utilizarse en una variedad de contextos.               |
+| Ejemplos            | Ejemplos incluyen MVC, Singleton, Factory Method.            | Ejemplos incluyen Arquitectura en Capas, Cliente-Servidor, Arquitectura Orientada a Servicios. |
+| Uso de Componentes  | Define cómo se estructuran y comunican componentes específicos. | Define cómo se organizan los componentes en un nivel alto sin entrar en detalles. |
+| Problemas Abordados | Se centran en soluciones para problemas concretos.           | Se centran en la organización general de un sistema.         |
+| Reutilización       | Promueve la reutilización de diseños específicos.            | Promueve la reutilización de enfoques generales.             |
+| Ejemplos Comunes    | Singleton para controlar la instancia única de una clase.    | Arquitectura en capas para separar la lógica de presentación y la lógica de negocio. |
+| Flexibilidad        | Menos flexible, ya que se aplica a situaciones específicas.  | Más flexible, ya que puede adaptarse a diferentes contextos. |
+
+> :bulb: **En resumen**
+>
+> Un **estilo de arquitectura de software** es un enfoque general para organizar y estructurar un sistema, proporcionando directrices de alto nivel. Los estilos son más flexibles y aplicables en varios contextos. en comparación, un **patrón de arquitectura** es una solución específica y detallada para un problema en particular. Ambos promueven la reutilización, pero los patrones son más limitados en su aplicabilidad y se centran en problemas concretos.
+>
+> Es un marco de referencia establece un marco de referencia a parttir del cual es posible construir aplicaciones que comparten un conjunto de atributos y características mediante el cual es posible identificarlos y clasificarlos.
+
+<br>
+
+
+
 # Architectural Katas
 
-<hr>
 
 Es una actividad donde se asigna un ejercicio para el cual hay que definir la arquitectura y esto normalmente se realiza en grupos de 3 a 5 personas. 
 
@@ -287,7 +395,7 @@ Es un espacio donde se practica de manera grupal o individual una serie de movim
 
     >  :bulb:   <u>Recomendado</u>
     >
-    > Utilizar el modelo C4 para realizar la presentación de la arquitectura el cual permite mostrar la arquitectura en varios niveles y mostrar las desiciones de diseño relevantes
+    > Utilizar el modelo C4 para realizar la presentación de la arquitectura el cual permite mostrar la arquitectura en varios niveles y mostrar las decisiones de diseño relevantes
 
   - **Votación:** Todas las personas presentes en la votación votan con manita arriba si salió muy bien la kata, y si no cumplió con las espectativas. 
 
@@ -299,56 +407,8 @@ En esta página se explica al detalle este pequeño juego:   [Katas](https://www
 
 <br>
 
-# Patrones de arquitectura
-
-Son soluciones o estructuras que ayudan a definir la aplicación desde un nivel mayor.
-
-A diferencia de un patrón de diseño que soluciona un problema en particular.
-
-Estos patrones nos ayudan a definir el lineamiento para poder empezar a definir la aplicación
-
-
-
-### Diferencias entre Patrones de arquitectura y patrones de diseño
-
-Los patrones de arquitectura son los que nos ayudan a definir la estructura del sistema y ubicar donde van cada uno de los componentes y capas.
-
-Aquí tenemos algunos patrones de arquitectura:
-
-
-
-### Arquitectura por capas
-
-Es un enfoque de diseño de software que organiza una aplicación en múltiples capas o niveles lógicos, donde cada capa tiene una responsabilidad específica y se comunica con las capas adyacentes a través de interfaces definidas. Estas capas están diseñadas para ser independientes y modulares, lo que facilita la gestión, le mantenimiento y la escalabilidad del software.
-
-Las capas típicas de una arquitectura por capas son:
-
-- **Presentación**: Capa en cargada de la interfaz e interacción con el usuario. Aquí se encuentran elementos como la interfaz gráfica, la lógica de presentación y la captura de entrada del usuario.
-- **Lógica de negocio:** En esta capa se implementa la logica del negocio de la aplicación. Aquí se procesan los datos y se aplican las reglas de negocio. Esta capa es independiente de la interfaz de usuario.
-- **Acceso a datos**: Encargada de interactuar con las bases de datos o cualquier otro almacenamiento de datos. Realiza operaciones de lectura y escritura de datos.
-- **Infraestructura o servicios:** Se encuentran los servicios y componentes que son compartidos por todas las capas. como la gestión de sesiones, autenticación, seguridad y otros aspectos técnicos de la aplicación.
-
-
-
-### Otros ejemplos de patrones de arquitectura son
-
-- Orientada a eventos
-
-- Microservicios
-
-- Microkernel
-
-
-
-> :bulb: <u>En Resumen</u>
->
-> Los patrones de diseño entran a solucionar problemas específicos dentro de los patrones de arquitectura.
-
- 
-
 # Bibliografía
 
-<hr>
 
 - [Introducción a la arquitectura de Software](https://www.youtube.com/watch?v=7ukajubprdE&list=PLFHx3afTdaY0hvX2NXRxMVM3j5sk-3aE3&index=2&ab_channel=ManuelZapata)
 - [11 Actividades que hace un arquitecto de software](https://www.youtube.com/watch?v=rWh7RtVJzhA&list=PLFHx3afTdaY0hvX2NXRxMVM3j5sk-3aE3&index=3&ab_channel=ManuelZapata)
@@ -357,8 +417,4 @@ Las capas típicas de una arquitectura por capas son:
 - [Atributos de calidad del software](https://www.youtube.com/watch?v=NmRuhzyKCWM&list=PLFHx3afTdaY0hvX2NXRxMVM3j5sk-3aE3&index=6&ab_channel=ManuelZapata)
 - [10 tipos de arquitectos de software](https://www.youtube.com/watch?v=FlMa5U2tRhE&list=PLFHx3afTdaY0hvX2NXRxMVM3j5sk-3aE3&index=7&ab_channel=ManuelZapata)
 - [Architectural Katas](https://www.youtube.com/watch?v=1UtuR0HpN7s&list=PLFHx3afTdaY0hvX2NXRxMVM3j5sk-3aE3&index=8&ab_channel=ManuelZapata)
-
-
-
-
 
